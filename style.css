@@ -687,7 +687,6 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
-  flex-wrap: wrap;
 }
 
 .resume-desc {
