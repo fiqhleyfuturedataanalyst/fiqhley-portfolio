@@ -629,6 +629,7 @@ footer {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
+  flex-direction: column;
 }
 
 .resume-preview {
@@ -682,12 +683,13 @@ footer {
 }
 
 .resume-actions {
-  width: 400px;
+  width: 100%;
   flex-shrink: 0;
   display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  padding-top: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .resume-desc {
