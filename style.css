@@ -683,12 +683,11 @@ footer {
 }
 
 .resume-actions {
-  width: 100%;
-  flex-shrink: 0;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.8rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .resume-desc {
@@ -701,8 +700,8 @@ footer {
 }
 
 .resume-actions .btn-proj {
-  text-align: center;
   width: auto;
+  white-space: nowrap;
 }
 
 @media (max-width: 700px) {
