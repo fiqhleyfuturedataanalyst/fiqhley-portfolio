@@ -588,6 +588,15 @@ main {
   border-radius: 8px;
 }
 
+.photo-grid a img {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.photo-grid a:hover img {
+  opacity: 0.8;
+}
+
 /* ================================================
    FOOTER
    ================================================ */
