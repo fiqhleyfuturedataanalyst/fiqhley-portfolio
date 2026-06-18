@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fiqhley Ilmey A'mal - Online Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- THEME TOGGLE -->
+  <button class="theme-toggle" id="themeBtn" title="Toggle dark/light mode">
+    <span class="icon-sun">☀️</span>
+    <span class="icon-moon">🌙</span>
+  </button>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="profile-ring">
+        <img src="profile.jpg" alt="Fiqhley Ilmey A'mal" class="profile-pic" />
+      </div>
+      <h1>FIQHLEY ILMEY A'MAL FADHAILILAMAL</h1>
+      <p class="header-sub">Puchong, Selangor &nbsp;·&nbsp; Aspiring Data Analyst</p>
+      <p class="header-contact">
+        <a href="tel:+601111984631">(+60)11-11984631</a>
+        &nbsp;|&nbsp;
+        <a href="mailto:fiqhley@outlook.com">fiqhley@outlook.com</a>
+        &nbsp;|&nbsp;
+        <a href="https://linkedin.com/in/fiqhley" target="_blank">LinkedIn Profile</a>
+      </p>
+    </div>
+  </header>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#resume">Resume</a>
+    <a href="#analytics">Analytics Projects</a>
+    <a href="#academic">Academic Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#leadership">Leadership</a>
+  </nav>
+
+  <main>
+
+    <!-- RESUME SECTION -->
+    <section class="card" id="resume">
+      <h2>Resume</h2>
+      <div class="gold-line"></div>
+      <div class="resume-container">
+        <div class="resume-preview">
+          <div class="resume-placeholder">
+            <span>📄</span>
+            <p>Your Resume</p>
+            <p class="resume-hint">Upload your resume PDF and replace this placeholder</p>
+          </div>
+          <!-- When you have your resume PDF, replace the div above with:
+               <iframe src="Fiqhley_Resume.pdf" class="resume-frame"></iframe>
+               OR just show it as an image:
+               <img src="resume-preview.jpg" class="resume-img" alt="Resume Preview" /> -->
+        </div>
+        <div class="resume-actions">
+          <p class="resume-desc">Download my full resume to learn more about my experience, education and skills.</p>
+          <a href="Fiqhley_Ilmey_CV.pdf" class="btn-proj btn-primary" download>
+            ⬇️ Download Resume
+          </a>
+          <a href="Fiqhley_Ilmey_CV.pdf" class="btn-proj btn-outline" target="_blank">
+            👁️ View Full Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANALYTICS PROJECTS -->
+    <section class="card" id="analytics">
+      <h2>Analytics Projects</h2>
+      <div class="gold-line"></div>
+      <p class="objective-text" style="margin-bottom:1.6rem;">Hands-on business analytics & AI automation projects completed through the Codebasics Data Analyst Bootcamp 5.0, covering Excel, SQL, Power BI, Tableau, Python, Microsoft Fabric and n8n/Make.com automation.</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>📊</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>01 · AtliQ Sales Report</h3>
+            <p class="proj-year">Business Project</p>
+            <div class="tag-row"><span class="tag">Excel</span><span class="tag">Power Query</span><span class="tag">Power Pivot</span><span class="tag">DAX</span></div>
+            <ul>
+              <li>Created customer performance reports comparing market performance against sales targets.</li>
+              <li>Organised and analysed data using Power Query, Power Pivot, and DAX.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>📈</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>02 · AtliQ Finance Report</h3>
+            <p class="proj-year">Business Project</p>
+            <div class="tag-row"><span class="tag">Excel</span><span class="tag">P&L Analysis</span></div>
+            <ul>
+              <li>Built Profit & Loss (P&L) reports evaluating financial performance for stakeholder communication.</li>
+              <li>Incorporated supplementary data to optimise report generation and strategic planning insight.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🛒</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>03 · Business Insights 360</h3>
+            <p class="proj-year">Power BI Project</p>
+            <div class="tag-row"><span class="tag">Power BI</span><span class="tag">MURAL</span><span class="tag">Stakeholder Mgmt</span></div>
+            <ul>
+              <li>Built end-to-end e-commerce dashboards covering finance, sales, marketing and supply chain.</li>
+              <li>Practised stakeholder management and effective communication in a simulated project environment.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>💰</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>04 · Finance and Top N Insights</h3>
+            <p class="proj-year">SQL Project</p>
+            <div class="tag-row"><span class="tag">SQL</span><span class="tag">Stored Procedures</span><span class="tag">Views</span></div>
+            <ul>
+              <li>Built finance analytics reports for the consumer goods industry using User-Defined Functions.</li>
+              <li>Created and executed stored procedures for automated, real-time financial reporting.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🚚</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>05 · Supply Chain Analytics & Model Optimisation</h3>
+            <p class="proj-year">SQL Project</p>
+            <div class="tag-row"><span class="tag">SQL</span><span class="tag">Triggers</span><span class="tag">Forecasting</span></div>
+            <ul>
+              <li>Built helper tables and triggers to calculate forecast accuracy and absolute error.</li>
+              <li>Optimised query execution time for accurate demand forecasting in consumer goods.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🏨</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>06 · Hospitality Domain Data Analysis</h3>
+            <p class="proj-year">Python Project</p>
+            <div class="tag-row"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">EDA</span></div>
+            <ul>
+              <li>Performed data cleaning, transformation, EDA and statistical analysis for hotel operations.</li>
+              <li>Analysed customer behaviour, revenue management and market trends in the hotel industry.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>💵</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>07 · Expense Tracking System</h3>
+            <p class="proj-year">Python Project</p>
+            <div class="tag-row"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">MySQL</span><span class="tag">Streamlit</span></div>
+            <ul>
+              <li>Built a full-stack expense management app with backend (FastAPI) and frontend (Streamlit).</li>
+              <li>Implemented category-wise and month-wise expense breakdowns for spending analysis.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>📡</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>08 · Telecom Project</h3>
+            <p class="proj-year">Power BI Project</p>
+            <div class="tag-row"><span class="tag">Power BI</span><span class="tag">KPI Analysis</span></div>
+            <ul>
+              <li>Built a pre/post 5G-launch KPI comparison report for an imaginary telecom company, "Wavecon".</li>
+              <li>Analysed ARPU, TAU and TUsU metrics and presented insights via a LinkedIn presentation.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🛡️</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>09 · Insurance Project</h3>
+            <p class="proj-year">Power BI Project</p>
+            <div class="tag-row"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Data Modelling</span></div>
+            <ul>
+              <li>Built risk analysis dashboards tailored to insurance industry challenges and dynamics.</li>
+              <li>Applied data modelling and presentation skills to personalise customer needs analysis.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🏦</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>10 · Strategic Insights for Product Team — Banking</h3>
+            <p class="proj-year">Tableau Project</p>
+            <div class="tag-row"><span class="tag">Tableau</span><span class="tag">Storytelling</span><span class="tag">Market Research</span></div>
+            <ul>
+              <li>Built an executive-facing dashboard analysing consumer credit spending and segmentation.</li>
+              <li>Converted raw financial data into strategic recommendations for new product launches.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🧩</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>11 · Fabric Pilot Project</h3>
+            <p class="proj-year">Microsoft Fabric</p>
+            <div class="tag-row"><span class="tag">Microsoft Fabric</span><span class="tag">Lakehouse</span><span class="tag">ETL</span></div>
+            <ul>
+              <li>Migrated a Power BI dashboard to the Microsoft Fabric ecosystem using Dataflow ETL.</li>
+              <li>Set up Lakehouse storage (OneLake) and orchestrated automated data refresh pipelines.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🤖</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>12 · Automating CSV Append from Email to Postgres DB</h3>
+            <p class="proj-year">AI Automation</p>
+            <div class="tag-row"><span class="tag">n8n</span><span class="tag">PostgreSQL</span><span class="tag">Automation</span></div>
+            <ul>
+              <li>Automated fetching email attachments and uploading them directly to a Postgres database.</li>
+              <li>Built a reusable ingestion workflow with CSV parsing, error handling and data validation.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>💱</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>13 · API Automation — Exchange Rate Data Collection</h3>
+            <p class="proj-year">AI Automation</p>
+            <div class="tag-row"><span class="tag">Make.com</span><span class="tag">API</span><span class="tag">Google Sheets</span></div>
+            <ul>
+              <li>Connected to third-party APIs to fetch and store live exchange rate data automatically.</li>
+              <li>Automated scheduled data pulls into Google Sheets without writing any code.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🗣️</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>14 · Natural Language to SQL Query Agent</h3>
+            <p class="proj-year">AI Automation</p>
+            <div class="tag-row"><span class="tag">n8n</span><span class="tag">AI Agent</span><span class="tag">PostgreSQL</span></div>
+            <ul>
+              <li>Built an AI Agent that translates plain-English queries into SQL and executes them automatically.</li>
+              <li>Implemented agent tools including schema fetchers, memory and system prompts.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>⚡</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>15 · Automating Data Refresh & Query Execution in Power BI</h3>
+            <p class="proj-year">AI Automation</p>
+            <div class="tag-row"><span class="tag">Power Automate</span><span class="tag">Power BI</span><span class="tag">SharePoint</span></div>
+            <ul>
+              <li>Automated the entire reporting workflow — file upload to SharePoint and dataset refresh trigger.</li>
+              <li>Executed custom DAX queries on Power BI to deliver automated insights without manual effort.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🧾</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>16 · Unstructured Data (Invoice) to Insights Automation</h3>
+            <p class="proj-year">AI Automation</p>
+            <div class="tag-row"><span class="tag">n8n</span><span class="tag">OCR</span><span class="tag">Document AI</span></div>
+            <ul>
+              <li>Extracted structured data from PDF and image-based invoices using OCR.</li>
+              <li>Automated data validation and storage of invoice-level and item-level details to Google Sheets.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>🛰️</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>17 · Automated Master Data Governor — Multi-Agent</h3>
+            <p class="proj-year">AI Automation</p>
+            <div class="tag-row"><span class="tag">n8n</span><span class="tag">Multi-Agent</span><span class="tag">SQL</span></div>
+            <ul>
+              <li>Built a complete AI-powered solution for identifying and fixing master data issues.</li>
+              <li>Used multi-agent orchestration with email-based approval loops and automated health-check reports.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder"><span>☁️</span><p>Add project screenshot here</p></div>
+          <div class="project-body">
+            <h3>18 · Support Ticket ETL Pipeline (AWS)</h3>
+            <p class="proj-year">Cloud Project</p>
+            <div class="tag-row"><span class="tag">AWS S3</span><span class="tag">Lambda</span><span class="tag">Glue</span><span class="tag">Redshift</span></div>
+            <ul>
+              <li>Built a complete ETL pipeline using AWS S3, Lambda, Glue, Athena and Redshift.</li>
+              <li>Automated data ingestion via S3 events and built Power BI dashboards to track ticket performance.</li>
+            </ul>
+            <div class="proj-btns"><a href="#" class="btn-proj btn-primary">👁️ View Project</a><a href="#" class="btn-proj btn-outline">GitHub</a></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ACADEMIC PROJECTS -->
+    <section class="card" id="academic">
+      <h2>Academic Projects</h2>
+      <div class="gold-line"></div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-img-placeholder">
+            <span>🧮</span>
+            <p>Add project screenshot here</p>
+          </div>
+          <div class="project-body">
+            <h3>Ranking the Socioeconomic Well-Being of Malaysian States using MCDM</h3>
+            <p class="proj-year">2025</p>
+            <div class="tag-row">
+              <span class="tag">Excel</span>
+              <span class="tag">TOPSIS</span>
+              <span class="tag">COBRA</span>
+              <span class="tag">AURA</span>
+            </div>
+            <ul>
+              <li>Developed a MCDM model across 14 Malaysian states and 12 socioeconomic indicators.</li>
+              <li>Sarawak ranked 1st economically & Kelantan 1st socially in 2023.</li>
+            </ul>
+            <div class="proj-btns">
+              <a href="#" class="btn-proj btn-primary">👁️ View Project</a>
+              <a href="#" class="btn-proj btn-outline">Notion</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder">
+            <span>🏨</span>
+            <p>Add project screenshot here</p>
+          </div>
+          <div class="project-body">
+            <h3>Data Visualization & Storytelling — Hotel Sales Dashboard</h3>
+            <p class="proj-year">2025</p>
+            <div class="tag-row">
+              <span class="tag">Power BI</span>
+              <span class="tag">Kaggle</span>
+              <span class="tag">Data Cleaning</span>
+            </div>
+            <ul>
+              <li>Cleaned a heavily incomplete Kaggle hotel dataset and built a Power BI dashboard.</li>
+              <li>Submitted to UMN international competition 2025.</li>
+            </ul>
+            <div class="proj-btns">
+              <a href="#" class="btn-proj btn-primary">👁️ View Dashboard</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder">
+            <span>🌿</span>
+            <p>Add project screenshot here</p>
+          </div>
+          <div class="project-body">
+            <h3>EcoWise: Web-based Intelligent Sustainability Evaluation (WISE-T)</h3>
+            <p class="proj-year">2025</p>
+            <div class="tag-row">
+              <span class="tag">Python</span>
+              <span class="tag">TOPSIS</span>
+              <span class="tag">Web Tool</span>
+            </div>
+            <ul>
+              <li>Built a Python-based web tool applying TOPSIS to rank sustainability projects.</li>
+              <li>Under journal review — Journal of Decisions and Operations Research. Presented at IIUD 2025.</li>
+            </ul>
+            <div class="proj-btns">
+              <a href="#" class="btn-proj btn-primary">👁️ View Tool</a>
+              <a href="#" class="btn-proj btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-placeholder">
+            <span>🚲</span>
+            <p>Add project screenshot here</p>
+          </div>
+          <div class="project-body">
+            <h3>EcoMode Apps — Gamified Campus Eco-Mobility</h3>
+            <p class="proj-year">2025</p>
+            <div class="tag-row">
+              <span class="tag">Rork</span>
+              <span class="tag">Stitch</span>
+              <span class="tag">ENT600</span>
+            </div>
+            <ul>
+              <li>Prototyped a gamified campus eco-mobility app rewarding students for green commuting.</li>
+              <li>Selected by lecturer for UiTM Innovation Idea Celebration.</li>
+            </ul>
+            <div class="proj-btns">
+              <a href="#" class="btn-proj btn-primary">👁️ View Prototype</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="card" id="certifications">
+      <h2>Certifications & Professional Development</h2>
+      <div class="gold-line"></div>
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>📜</span><p>Add cert image</p></div>
+          <div class="cert-body">
+            <h4>Business Intelligence & Data Analyst (BIDA)</h4>
+            <p class="cert-issuer">Corporate Finance Institute</p>
+            <p class="cert-also">Also: FPAP · FMVA · FTIP</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>📜</span><p>Add cert image</p></div>
+          <div class="cert-body">
+            <h4>Data Analyst Bootcamp 5.0</h4>
+            <p class="cert-issuer">Codebasics</p>
+            <p class="cert-also">Also: Math & Statistics for Data Science</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>📜</span><p>Add cert image</p></div>
+          <div class="cert-body">
+            <h4>PeopleCert Data Science: Foundation & Data Analyst</h4>
+            <p class="cert-issuer">Yayasan Peneraju (MASET)</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>📜</span><p>Add cert image</p></div>
+          <div class="cert-body">
+            <h4>AI-assisted Analytics & Prompt Engineering</h4>
+            <p class="cert-issuer">Claude · ChatGPT · Gemini · Copilot</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>📜</span><p>Add cert image</p></div>
+          <div class="cert-body">
+            <h4>Mandarin Language Course</h4>
+            <p class="cert-issuer">Kunkwan Language Centre</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="card" id="achievements">
+      <h2>Achievements</h2>
+      <div class="gold-line"></div>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Jul 2025</p>
+            <h3>🥈 Silver Award — International Undergraduate Research, Innovation, Invention and Design 2025</h3>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Jul 2025</p>
+            <h3>🥈 First Runner-Up — UiTM Innovation Idea Celebration (ENT600)</h3>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Jun 2025</p>
+            <h3>🏆 Participant — Data Visualization & Storytelling Competition, Universitas Multimedia Nusantara</h3>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">May 2025</p>
+            <h3>🎓 Vice Chancellor's Award (ANC)</h3>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Jan 2024</p>
+            <h3>🥈 First Runner-Up — Program Pendigitalan Kampus Siri 2 by PayNet</h3>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Jan 2024</p>
+            <h3>🥇 Gold Leadership Award — MPP UiTM Se-Malaysia 2022/2023</h3>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">2015 – 2018</p>
+            <h3>🏆 National Champion — Sudoku Competition & Bicara Berirama</h3>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">2013</p>
+            <h3>🥈 First Runner-Up — National Robotic Competition (NRC), Gen ii Football Category</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section class="card" id="leadership">
+      <h2>Leadership & Co-Curricular Activities</h2>
+      <div class="gold-line"></div>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Dec 2023</p>
+            <h3>Program Director — MLBB UiTMCJ Clash of Campus (International)</h3>
+            <p>Directed an international esports tournament of 640 participants across 60+ universities and 4 international institutions, recovering full event execution after a last-minute sponsor withdrawal. Awarded Gold Leadership Award (MPP).</p>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Nov 2023</p>
+            <h3>Assistant Program Director — Cashless Campus Mania</h3>
+            <p>Secured RM10,000 in programme funding and executed 5 campus digitalisation activities. Earned First Runner-Up at PayNet's Pendigitalan Kampus Siri 2.</p>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Sep 2023</p>
+            <h3>Student Leader — Orientation Week Facilitator</h3>
+            <p>Led the multimedia team for a 3,000+ student orientation, coordinating AV and PA systems across 5 simultaneous venues from the main hall command point.</p>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">2022 – 2023</p>
+            <h3>Executive of Infostructure — Student Representative Council (MPP)</h3>
+            <p>Produced social media content, video and design assets for the student council while establishing multimedia SOPs adopted across all affiliated campus clubs.</p>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">2021 – 2022</p>
+            <h3>Student Liaison — Persatuan Silat Seni Gayong Malaysia (PSSGM)</h3>
+            <p>Served as the inter-campus liaison between two UiTM Johor Silat campuses. Awarded Pesilat Harapan at PSSGM UiTM Johor Award Ceremony.</p>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+              <div class="photo-placeholder"><span>📷</span><p>Add photo</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Fiqhley Ilmey A'mal Fadhaililamal &nbsp;·&nbsp; Built with HTML & CSS &nbsp;·&nbsp; Hosted on GitHub Pages</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('themeBtn');
+    const html = document.documentElement;
+    btn.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      html.setAttribute('data-theme', current === 'light' ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>
