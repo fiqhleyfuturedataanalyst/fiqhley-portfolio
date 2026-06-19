@@ -453,11 +453,19 @@ main {
   transition: background 0.3s;
 }
 
-/* When real cert image is used */
+/* When real cert image is used 
 .cert-card > img {
   width: 100%;
   height: 100px;
   object-fit: cover;
+}*/
+
+.cert-card > img,
+.cert-card a img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  display: block;
 }
 
 .cert-body { padding: 0.8rem 1rem; }
