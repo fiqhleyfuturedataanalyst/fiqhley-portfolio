@@ -614,6 +614,8 @@ main {
   z-index: 1000;
   justify-content: center;
   align-items: center;
+  overflow: auto;
+  padding: 2rem;
 }
 
 .lightbox:target {
@@ -621,12 +623,13 @@ main {
 }
 
 .lightbox img {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 90vw !important;
+  max-height: 85vh !important;
   width: auto !important;
   height: auto !important;
   object-fit: contain !important;
   border-radius: 8px;
+  margin: auto;
 }
 
 /* ================================================
